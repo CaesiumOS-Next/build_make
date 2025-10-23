@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="data">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/tools/zipalign/tests/data/unaligned.zip!/" />
+      <root url="jar://$PROJECT_DIR$/tools/zipalign/tests/data/apkWithUncompressedSharedLibs.zip!/" />
+      <root url="jar://$PROJECT_DIR$/tools/zipalign/tests/data/holes.zip!/" />
+      <root url="jar://$PROJECT_DIR$/tools/zipalign/tests/data/diffOrders.zip!/" />
+      <root url="jar://$PROJECT_DIR$/tools/zipalign/tests/data/archiveWithOneDirectoryEntry.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

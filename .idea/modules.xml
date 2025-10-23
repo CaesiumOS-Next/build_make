@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/tools/aconfig/aconfig/aconfig.iml" filepath="$PROJECT_DIR$/tools/aconfig/aconfig/aconfig.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tools/aconfig/aconfig_device_paths/aconfig_device_paths.iml" filepath="$PROJECT_DIR$/tools/aconfig/aconfig_device_paths/aconfig_device_paths.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tools/aconfig/aconfig_diff/aconfig_diff.iml" filepath="$PROJECT_DIR$/tools/aconfig/aconfig_diff/aconfig_diff.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tools/aconfig/aconfig_flags/aconfig_flags.iml" filepath="$PROJECT_DIR$/tools/aconfig/aconfig_flags/aconfig_flags.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tools/aconfig/aconfig_storage_file/aconfig_storage_file.iml" filepath="$PROJECT_DIR$/tools/aconfig/aconfig_storage_file/aconfig_storage_file.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tools/aconfig/aconfig_storage_read_api/aconfig_storage_read_api.iml" filepath="$PROJECT_DIR$/tools/aconfig/aconfig_storage_read_api/aconfig_storage_read_api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/backported_fixes/src/backported_fixes.iml" filepath="$PROJECT_DIR$/backported_fixes/src/backported_fixes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tools/check-flagged-apis/check-flagged-apis.iml" filepath="$PROJECT_DIR$/tools/check-flagged-apis/check-flagged-apis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tools/soong_api/client/client.iml" filepath="$PROJECT_DIR$/tools/soong_api/client/client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tools/dependency_mapper/dependency_mapper.iml" filepath="$PROJECT_DIR$/tools/dependency_mapper/dependency_mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tools/aconfig/fake_device_config/fake_device_config.iml" filepath="$PROJECT_DIR$/tools/aconfig/fake_device_config/fake_device_config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tools/droiddoc/test/generics/generics.iml" filepath="$PROJECT_DIR$/tools/droiddoc/test/generics/generics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tools/ide_query/ide_query.iml" filepath="$PROJECT_DIR$/tools/ide_query/ide_query.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tools/soong_api/src/main/main.iml" filepath="$PROJECT_DIR$/tools/soong_api/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/make.iml" filepath="$PROJECT_DIR$/make.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tools/permission_versioning/permission_versioning.iml" filepath="$PROJECT_DIR$/tools/permission_versioning/permission_versioning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tools/product_config/product_config.iml" filepath="$PROJECT_DIR$/tools/product_config/product_config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tools/dependency_mapper/tests/res/res.iml" filepath="$PROJECT_DIR$/tools/dependency_mapper/tests/res/res.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tools/signapk/signapk.iml" filepath="$PROJECT_DIR$/tools/signapk/signapk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tools/aconfig/statslog_aconfig/statslog_aconfig.iml" filepath="$PROJECT_DIR$/tools/aconfig/statslog_aconfig/statslog_aconfig.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tools/aconfig/statslog_aconfig/stubs/stubs.iml" filepath="$PROJECT_DIR$/tools/aconfig/statslog_aconfig/stubs/stubs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tools/droiddoc/test/stubs/stubs2.iml" filepath="$PROJECT_DIR$/tools/droiddoc/test/stubs/stubs2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tools/soong_api/src/test/test.iml" filepath="$PROJECT_DIR$/tools/soong_api/src/test/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tools/aconfig/aconfig_device_paths/test/test2.iml" filepath="$PROJECT_DIR$/tools/aconfig/aconfig_device_paths/test/test2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tools/permission_versioning/tests/tests.iml" filepath="$PROJECT_DIR$/tools/permission_versioning/tests/tests.iml" />
+      <module fileurl="file://$PROJECT_DIR$/backported_fixes/tests/tests2.iml" filepath="$PROJECT_DIR$/backported_fixes/tests/tests2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tools/aconfig/aconfig_storage_read_api/tests/tests3.iml" filepath="$PROJECT_DIR$/tools/aconfig/aconfig_storage_read_api/tests/tests3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tools/aconfig/aconfig_storage_file/tests/tests4.iml" filepath="$PROJECT_DIR$/tools/aconfig/aconfig_storage_file/tests/tests4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tools/dependency_mapper/tests/tests5.iml" filepath="$PROJECT_DIR$/tools/dependency_mapper/tests/tests5.iml" />
+    </modules>
+  </component>
+</project>
