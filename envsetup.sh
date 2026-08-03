@@ -1151,7 +1151,7 @@ function showcommands() {
 
 function build_kernel() {
     local target_kernel_device=$1
-    local target_kernel_dir="${ANDROID_BUILD_TOP}/$(_get_build_var_cached TARGET_KERNEL_DIR)"
+    local target_kernel_dir=$3
     local target_kernel_source=$2
 
     local KERNEL_BUILD_TOP="${ANDROID_BUILD_TOP}/out-kernel/${target_kernel_source}"
