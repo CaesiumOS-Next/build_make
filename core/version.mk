@@ -4,29 +4,21 @@ PRODUCT_VERSION_PATCH = 0-pre3
 PRODUCT_VERSION_CODENAME = ConceptionNext
 PRODUCT_VERSION_RELEASETRACK = Preview
 
-ifeq ($(LINEAGE_VERSION_APPEND_TIME_OF_DAY),true)
-    LINEAGE_BUILD_DATE := $(shell date -u +%Y%m%d_%H%M%S)
-else
-    LINEAGE_BUILD_DATE := $(shell date -u +%Y%m%d)
-endif
-
-# Set as OFFICIAL by default
-LINEAGE_BUILDTYPE := OFFICIAL
-LINEAGE_EXTRAVERSION :=
-
-LINEAGE_VERSION_SUFFIX := $(LINEAGE_BUILD_DATE)-$(LINEAGE_BUILDTYPE)$(LINEAGE_EXTRAVERSION)-$(LINEAGE_BUILD)
+# Set to OFFICIAL by default
+# Change this value here or use declare +x with RELEASE_TYPE to change release type
+BUILDTYPE := OFFICIAL
 
 # Internal version
-LINEAGE_VERSION := $(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR).$(PRODUCT_VERSION_PATCH)
+INTERNAL_VERSION := $(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR).$(PRODUCT_VERSION_PATCH)
 
 # Display version
-LINEAGE_DISPLAY_VERSION := $(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR)
+DISPLAY_VERSION := $(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR)
 
 # CaesiumOS version properties
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.caesium.codename=$(PRODUCT_VERSION_CODENAME) \
     ro.caesium.track=$(PRODUCT_VERSION_RELEASETRACK) \
-    ro.caesium.version=$(LINEAGE_VERSION) \
-    ro.caesium.version.display=$(LINEAGE_DISPLAY_VERSION) \
+    ro.caesium.version=$(INTERNAL_VERSION) \
+    ro.caesium.version.display=$(DISPLAY_VERSION) \
     ro.caesium.build.version=$(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR) \
-    ro.caesium.releasetype=$(LINEAGE_BUILDTYPE)
+    ro.caesium.releasetype=$(BUILDTYPE)
