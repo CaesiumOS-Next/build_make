@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="dependency-mapper-test-data">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/tools/dependency_mapper/tests/res/testfiles/dependency-mapper-test-data.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
