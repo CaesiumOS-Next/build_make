@@ -24,12 +24,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/media_product.mk)
 PRODUCT_PACKAGES += \
     Browser2 \
     Calendar \
-    Camera2 \
+    Aperture \
     Contacts \
     DeskClock \
-    Gallery2 \
+    Glimpse \
+    Canvas \
     LatinIME \
-    Music \
+    Twelve \
+    Recorder \
     preinstalled-packages-platform-handheld-product.xml \
     QuickSearchBox \
     SettingsIntelligence \
