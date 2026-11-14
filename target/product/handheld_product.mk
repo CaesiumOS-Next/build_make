@@ -38,3 +38,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES_DEBUG += \
     frameworks-base-overlays-debug
+
+PRODUCT_PRODUCT_PROPERTIES += \
+    setupwizard.theme=glif_expressive \
+    setupwizard.feature.day_night_mode_enabled=true
