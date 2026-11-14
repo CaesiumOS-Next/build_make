@@ -34,6 +34,7 @@ PRODUCT_PACKAGES += \
     preinstalled-packages-platform-handheld-product.xml \
     QuickSearchBox \
     SettingsIntelligence \
+    SetupWizard \
     frameworks-base-overlays
 
 PRODUCT_PACKAGES_DEBUG += \
